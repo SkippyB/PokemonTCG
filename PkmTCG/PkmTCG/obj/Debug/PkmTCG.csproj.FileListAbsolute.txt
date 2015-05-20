@@ -1,0 +1,9 @@
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\bin\Debug\PkmTCG.exe.config
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\bin\Debug\PkmTCG.exe
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\bin\Debug\PkmTCG.pdb
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.exe
+C:\Users\Robert\Desktop\c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.pdb
+C:\Users\Robert\Desktop\Personal c++ workspace\PkmTCG\PkmTCG\bin\Debug\PkmTCG.exe.config
+C:\Users\Robert\Desktop\Personal c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.exe
+C:\Users\Robert\Desktop\Personal c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.pdb

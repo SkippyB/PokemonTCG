@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PkmTCG", "PkmTCG\PkmTCG.csproj", "{EF8FFBF6-9BAF-4A45-874B-029873F6598D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E973CFC3-6606-48AE-B41C-B589F76C561A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF8FFBF6-9BAF-4A45-874B-029873F6598D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8FFBF6-9BAF-4A45-874B-029873F6598D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8FFBF6-9BAF-4A45-874B-029873F6598D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8FFBF6-9BAF-4A45-874B-029873F6598D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
