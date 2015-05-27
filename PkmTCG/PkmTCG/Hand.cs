@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace PkmTCG
 {
+    /**
+     * A hand contains all the cards available to play. 
+     * There is no upper limit on the number of cards a player can have, but they must have a non-negative amount.
+     * 
+     */ 
     class Hand
     {
-        private bool shuffleIntoDeck(int cardsToShuffle)
+        #region private fields
+        List<Card> cardsInHand;
+        #endregion //private fields
+
+
+        public Hand(List<Card> drawnHand)
+        {
+            cardsInHand = drawnHand;
+        }
+
+        #region private methods
+
+        private void ShuffleCardIntoDeck(int cardsToShuffle)
+        {
+            
+        }
+
+        private bool Contains(Card card)
         {
             return false;
         }
+        #endregion //private methods
 
-        private bool contains(Card card)
-        {
-            return false;
-        }
-
-        
     }
 }

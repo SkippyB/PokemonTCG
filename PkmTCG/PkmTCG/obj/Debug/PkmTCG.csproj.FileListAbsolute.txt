@@ -10,3 +10,6 @@ C:\Users\Robert\Desktop\Personal c++ workspace\PkmTCG\PkmTCG\obj\Debug\PkmTCG.pd
 C:\Users\Robert\Documents\GitHub\PokemonTCG\PkmTCG\PkmTCG\bin\Debug\PkmTCG.exe.config
 C:\Users\Robert\Documents\GitHub\PokemonTCG\PkmTCG\PkmTCG\obj\Debug\PkmTCG.exe
 C:\Users\Robert\Documents\GitHub\PokemonTCG\PkmTCG\PkmTCG\obj\Debug\PkmTCG.pdb
+C:\Users\Robert\Desktop\PokemonTCG-master\PokemonTCG-master\PkmTCG\PkmTCG\bin\Debug\PkmTCG.exe.config
+C:\Users\Robert\Desktop\PokemonTCG-master\PokemonTCG-master\PkmTCG\PkmTCG\obj\Debug\PkmTCG.exe
+C:\Users\Robert\Desktop\PokemonTCG-master\PokemonTCG-master\PkmTCG\PkmTCG\obj\Debug\PkmTCG.pdb

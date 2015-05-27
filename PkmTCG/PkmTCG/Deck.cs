@@ -6,28 +6,53 @@ using System.Threading.Tasks;
 
 namespace PkmTCG
 {
+    /**
+     * The Deck is what is drawn from during the match and put together from the collection during Deck construction.
+     * Maybe take a list to create the object at the beginning of a match?
+     */ 
     class Deck
     {
         #region private fields
 
         List<Card> deck;
         static readonly int SHUFFLE_COUNT = 10000;
-
+        static readonly int STARTING_HAND_SIZE = 7;
+        
         #endregion //private fields
 
 
 
         #region public methods
 
+        public List<Card> DrawStartingHand()
+        {
+            List<Card> temp = new List<Card>();
+            for (int i = 0; i < STARTING_HAND_SIZE; i++)
+            {
+                temp.Add(Draw());
+            }
+            return temp;
+        }
+
+        public List<Card> DrawPrizes(int numPrizes)
+        {
+            List<Card> temp = new List<Card>();
+            for (int i = 0; i < numPrizes; i++)
+            {
+                temp.Add(Draw());
+            }
+            return temp;
+        }
+        
         public Card Draw()
         {
             Card drawnCard = deck.First();
             deck.RemoveAt(0);
             return drawnCard;
         }
-        
-        #endregion //public methods
 
+        //search?
+        
         #endregion //public methods
 
 
