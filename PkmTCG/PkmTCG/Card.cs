@@ -11,7 +11,8 @@ namespace PkmTCG
      */ 
     public abstract class Card
     {
-        protected enum Rarity { Common = 1, Uncommon = 2, Rare = 3, HoloRare = 4 };
+        //As it turns out, enums are sequential if they're not defined explicitly.
+        protected enum Rarity { Common = 1, Uncommon, Rare, HoloRare };
 
         #region private fields
         private String cardName;

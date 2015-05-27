@@ -14,3 +14,4 @@ namespace PkmTCG
         //how many cards are in the set.
     }
 }
+

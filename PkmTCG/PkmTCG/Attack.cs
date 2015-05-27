@@ -13,8 +13,10 @@ namespace PkmTCG
     class Attack
     {
         #region private fields
+
         private int damage;
         private Effect e;
+
         #endregion //private fields
 
         public Attack(int howMuchDamage, Effect theEffect)
@@ -24,3 +26,4 @@ namespace PkmTCG
         }
     }
 }
+
