@@ -12,19 +12,29 @@ namespace PkmTCG
 
         List<Card> deck;
         static readonly int SHUFFLE_COUNT = 10000;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> origin/master
         #endregion //private fields
 
 
 
         #region public methods
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> origin/master
         public Card Draw()
         {
             Card drawnCard = deck.First();
             deck.RemoveAt(0);
             return drawnCard;
         }
+        
+        #endregion //public methods
 
         #endregion //public methods
 
