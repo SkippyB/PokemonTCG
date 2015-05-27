@@ -8,48 +8,57 @@ namespace PkmTCG
 {
     class Deck
     {
-        private void shuffle()
-        {
+        #region private fields
 
+        List<Card> deck;
+        static readonly int SHUFFLE_COUNT = 10000;
+
+        #endregion //private fields
+
+
+
+        #region public methods
+
+        public Card Draw()
+        {
+            Card drawnCard = deck.First();
+            deck.RemoveAt(0);
+            return drawnCard;
         }
 
-        private Card draw()
+        #endregion //public methods
+
+
+
+        #region private methods
+
+        private void Shuffle()
         {
-            return null;
-        }
+            Random shuffler = new Random();
 
-        private bool containsCard(Card toSearch)
-        {
-            return false;
-        }
-
-        private Card seachDeck(Card toSearch)
-        {
-            return null;
-        }
-
-
-
-
-        private class DeckNode
-        {
-            Card card;
-            DeckNode next;
-
-            private DeckNode(Card theCard, DeckNode nextCard)
+            for (int i = 0; i < SHUFFLE_COUNT; i++)
             {
-                card = theCard;
-                next = nextCard;
+                int from = shuffler.Next(deck.Count);
+                int to = shuffler.Next(deck.Count);
+
+                Card temp = deck.ElementAt(to);
+                deck.RemoveAt(to);
+                deck.Insert(to, deck.ElementAt(from));
+                deck.RemoveAt(from);
+                deck.Insert(from, temp);
             }
-
-            private DeckNode(Card theCard)
-            {
-                card = theCard;
-                next = null;
-            }
-
-
-
         }
+
+        private bool ContainsCard(Card toSearch)
+        {
+            return SearchDeck(toSearch) != null;
+        }
+
+        private Card SearchDeck(Card toSearch)
+        {
+            return deck.First(x => x.Equals(toSearch));
+        }
+
+        #endregion //private methods
     }
 }
