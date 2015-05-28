@@ -11,7 +11,7 @@ namespace PkmTCG
      * Trainer cards are cards that have an effect.
      * Pokemon powers have an effect.
      * Some Pokemon attacks have an effect.
-     * Essentially: An Effect is anything that immediatly affects the state of the Playing Field that is not an attack.
+     * Essentially: An Effect is anything that affects the state of the Playing Field that is not an attack.
      */ 
     interface Effect
     {

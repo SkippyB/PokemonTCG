@@ -23,7 +23,5 @@ namespace PkmTCG
         {
             return butThePrize;
         }
-
-
     }
 }

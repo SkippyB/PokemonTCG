@@ -6,14 +6,45 @@ using System.Threading.Tasks;
 
 namespace PkmTCG
 {
+    /*
+     * Pokemon cards are the heart of the game.
+     * All pokemon must have at LEAST 1 attack, though that attack does not necessarily need to do damage.
+     */ 
     class PkmCard : Card
     {
-        Attack a1;
-        Attack a2;
-        Effect pkmPower;
-        String desc;
+        /*
+         * Robert:
+         * RE: Costs
+         * Retreat costs don't bother me, since every retreat cost I've ever 
+         * seen has just been some amount of colorless energy, but how do we handle 
+         * attack costs?
+         */ 
 
-        private PkmCard(String name, Rarity thisRare, int setNum, int id) : base(name, thisRare, setNum, id)
+        #region private fields
+
+        private int level;
+        private int health;
+
+        private Attack first;
+        private Attack second;
+        private Effect pkmPower;
+
+        private String desc;
+        private int pkmNum;
+        private int retreatCost;
+        private PokemonType Weakness;
+        private PokemonType resistance;
+
+        private List<EnergyCard> attachedEnergy;
+
+        #endregion //private fields
+
+        /*
+         * Robert:
+         * This constructor could be pretty beefy if we try to do most of these fields at once. 
+         * Suggestions would be appreciated.
+         */ 
+        private PkmCard(String name, Rarity thisRare, int setNum, int id, Attack firstAttack) : base(name, thisRare, setNum, id)
         {
            
         }
