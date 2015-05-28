@@ -12,12 +12,9 @@ namespace PkmTCG
     public abstract class Card
     {
         #region enums
-        //As it turns out, enums are sequential if they're not defined explicitly.
         protected enum Rarity { Common, Uncommon, Rare, HoloRare };
-        //need better enums for types, would prefer primitives.
-        protected enum PokemonType { Colorless = 'c', Water = 'w', Grass = 'g', Psychic = 'p', 
-            Lightning = 'l', Fire = 'f', Fighting = '?'};
-        //If we want to go that far: Steel = s, Darkness = d, Fairy = '?'
+        protected enum PokemonType { Colorless, Fighting, Fire, Grass, Lightning, Psychic, Water };
+        //If we want to go that far, Darkness , Steel, and Fairy can be added later.
         #endregion //enums
 
         #region private fields
