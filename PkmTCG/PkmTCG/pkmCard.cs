@@ -24,6 +24,7 @@ namespace PkmTCG
 
         private int level;
         private int health;
+        private PokemonType type;
 
         private Attack first;
         private Attack second;
@@ -32,7 +33,7 @@ namespace PkmTCG
         private String desc;
         private int pkmNum;
         private int retreatCost;
-        private PokemonType Weakness;
+        private PokemonType weakness;
         private PokemonType resistance;
 
         private List<EnergyCard> attachedEnergy;
@@ -43,7 +44,7 @@ namespace PkmTCG
          * Robert:
          * This constructor could be pretty beefy if we try to do most of these fields at once. 
          * Suggestions would be appreciated.
-         */ 
+         */
         private PkmCard(String name, Rarity thisRare, int setNum, int id, Attack firstAttack) : base(name, thisRare, setNum, id)
         {
            
