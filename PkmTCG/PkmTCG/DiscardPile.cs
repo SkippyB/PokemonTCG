@@ -12,7 +12,6 @@ namespace PkmTCG
      *      Trainers that have been played
      *      Pokemon that have been knocked out
      *      Energy cards attached to knocked out Pokemon
-     *
      */ 
     class DiscardPile
     {
@@ -25,3 +24,4 @@ namespace PkmTCG
 
     }
 }
+

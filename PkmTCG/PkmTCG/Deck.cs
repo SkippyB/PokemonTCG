@@ -34,6 +34,9 @@ namespace PkmTCG
             return temp;
         }
 
+        /**
+         * Draw prizes at the beginning of a match
+         */ 
         public List<Card> DrawPrizes(int numPrizes)
         {
             List<Card> temp = new List<Card>();

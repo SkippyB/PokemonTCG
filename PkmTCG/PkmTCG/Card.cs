@@ -11,7 +11,11 @@ namespace PkmTCG
      */ 
     public abstract class Card
     {
-        protected enum Rarity { Common = 1, Uncommon = 2, Rare = 3, HoloRare = 4 };
+        #region enums
+        protected enum Rarity { Common, Uncommon, Rare, HoloRare };
+        protected enum PokemonType { Colorless, Fighting, Fire, Grass, Lightning, Psychic, Water };
+        //If we want to go that far, Darkness , Steel, and Fairy can be added later.
+        #endregion //enums
 
         #region private fields
         private String cardName;

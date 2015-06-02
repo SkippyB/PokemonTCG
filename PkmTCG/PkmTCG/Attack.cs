@@ -13,14 +13,18 @@ namespace PkmTCG
     class Attack
     {
         #region private fields
+
+        private String desc;
         private int damage;
-        private Effect e;
+        private Effect effect;
+
         #endregion //private fields
 
         public Attack(int howMuchDamage, Effect theEffect)
         {
             this.damage = howMuchDamage;
-            e = theEffect;
+            effect = theEffect;
         }
     }
 }
+

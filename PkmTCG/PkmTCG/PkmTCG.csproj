@@ -43,13 +43,14 @@
   <ItemGroup>
     <Compile Include="Attack.cs" />
     <Compile Include="Card.cs" />
-    <Compile Include="Collection.cs" />
+    <Compile Include="CardCollection.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="DiscardPile.cs" />
     <Compile Include="Effect.cs" />
+    <Compile Include="EnergyCard.cs" />
     <Compile Include="Hand.cs" />
     <Compile Include="Match.cs" />
-    <Compile Include="pkmCard.cs" />
+    <Compile Include="PkmCard.cs" />
     <Compile Include="PlayingField.cs" />
     <Compile Include="Prize.cs" />
     <Compile Include="Program.cs" />
